@@ -1,0 +1,7 @@
+# openharness-core-rule bundle patch.
+# Mounts the plugin into the profile's bundles list.
+- insert:
+    - id: openharness-core-rule
+      name: 'openharness-core-rule'
+      config:
+        enabled: true
